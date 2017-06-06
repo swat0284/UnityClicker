@@ -1,0 +1,17 @@
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEditor.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Mono.Cecil.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Unity.DataContract.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/swat/Desktop/Zlecenia/Clicker/Project/Temp/bin/Debug/Mono.Cecil.Mdb.dll

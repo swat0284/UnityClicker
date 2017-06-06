@@ -46,11 +46,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DestroyAfterTime.cs" />
+     <Compile Include="Assets\Scripts\DebugTools.cs" />
+     <Compile Include="Assets\Scripts\DestroyAfterTime.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GuiManager.cs" />
+     <Compile Include="Assets\Scripts\ShopItem.cs" />
      <Compile Include="Assets\Scripts\ShopManager.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\SpriteAnimations.cs" />
+     <Compile Include="Assets\Scripts\UpgradesManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
