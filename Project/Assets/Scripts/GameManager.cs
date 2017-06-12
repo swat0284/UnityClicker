@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour {
 			player.clickValue++;
 			break;
 		case 2:
-			player.time = player.time -0.1f;
+			player.time = player.time -0.05f;
 			break;
 		case 3: break;
 		}
@@ -53,7 +53,8 @@ public class GameManager : MonoBehaviour {
 	{
 		spriteAnimations.CreateParticleAnimation(point,soundManager.splashSounds[Random.Range(0,soundManager.splashSounds.Length)]);
 		player.coins += player.clickValue;
-		guiManager.creditsText.text=player.coins.ToString();
+
+		//player.coins.ToString();
 
 	}
 	int LevelCheck(int points)
@@ -62,8 +63,12 @@ public class GameManager : MonoBehaviour {
 
 		return level;
 	}
+	float test =0;
 	// Update is called once per frame
 	void Update() {
+		
+		test = Mathf.Lerp(test,player.coins,Time.deltaTime*5);
+		guiManager.creditsText.text = test.ToString("F0");
 		if (Input.GetMouseButtonDown(0)) {
 			RaycastHit hit;
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -82,7 +87,7 @@ public class PlayerInfo
 public	int level = 0;
 public	int coins = 0;
 public	int clickValue = 1;
-	public float time = 2.0f;
+	public float time = 1.0f;
 
 }
 public class Levels

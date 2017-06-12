@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;ENABLE_DUCK_TYPING</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -46,47 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Editor\AssetStoreProductInspector.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\Automators\Script\GlobalDefines\Editor\GlobalDefinesManagerWindow.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\Automators\Script\Shader\Utility\Editor\ShaderUtilityInspector.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXList.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXObject.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXParser.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXProject.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCBuildConfiguration.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCConfigurationList.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCMod.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCProject.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\ThirdParty\Editor\XUPorter\XCodePostProcess.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\ArrayDrawer\Editor\ArrayDrawer.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\EnumMask\Editor\EnumMaskFieldDrawer.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\InspectorButton\Editor\InspectorButtonDrawer.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\OnValueChange\Editor\ExecuteOnValueChangeDrawer.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\Regex\Editor\RegexDrawer.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Editor\Helper\ArrayInspector.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Editor\Uitlity\UnityEditorUtility.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\Web\Demo\Scripts\DownloadTexture\Editor\DownloadTextureDemoInspector.cs" />
-     <Compile Include="Assets\VoxelBusters\Common\Utility\Zip\Editor\Zip.cs" />
-     <Compile Include="Assets\VoxelBusters\RuntimeSerialization\Scripts\Editor\Menu\ProductMenu.cs" />
-     <None Include="Assets\VoxelBusters\RuntimeSerialization\ReleaseNotes.txt" />
-     <None Include="Assets\VoxelBusters\RuntimeSerialization\link.xml" />
-     <None Include="Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\License.txt" />
+     <Compile Include="Assets\Cartoon FX\Editor\CFXEasyEditor.cs" />
+     <Compile Include="Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+     <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+     <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\Cartoon FX\CartoonFX Readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="nunit.framework">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.EditorTestsRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -100,11 +67,14 @@
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.PlaymodeTestsRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll</HintPath>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
@@ -121,6 +91,9 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
  </Reference>
@@ -134,7 +107,7 @@
  <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
- <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
